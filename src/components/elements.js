@@ -15,7 +15,7 @@ export default function Elements(){
             return
         }
         if (task) {
-            setItems((prevItems) => [`Task ${prevItems.length + 1}: ${task}`,...prevItems]);
+            setItems((prevItems) => [` ${prevItems.length + 1} : ${task}`,...prevItems]);
             setTask('');
             console.log(task.length)
         }else{
